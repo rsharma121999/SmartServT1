@@ -1,20 +1,33 @@
-.card {
+.Box {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-h3 {
+  padding: 10px;
   margin: 10px;
-  text-align: center;
 }
 
-.box1 {
-  width: 450px;
-  border: 1px solid black;
+select {
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.box2 {
-  width: 200px;
-  border: 1px solid black;
+.select-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
 }

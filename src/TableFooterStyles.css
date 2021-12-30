@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  width: 600px;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.pagination {
+  background: rgb(177, 177, 177);
+  padding: 14px;
+  display: flex;
+  margin-top: 20px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: rgb(90, 90, 90);
+  color: white;
+  margin: 2px 2px;
+}
+
+.button.active {
+  background: blue;
+  color: white;
+}

@@ -1,0 +1,24 @@
+th {
+  text-align: center;
+}
+
+table {
+  border: 1px solid black;
+  width: 600px;
+  border-collapse: collapse;
+}
+
+table td,
+th {
+  text-align: center;
+  border: 2px solid black;
+}
+table td:nth-child(1) {
+  width: 300px;
+}
+table td:nth-child(2) {
+  width: 200px;
+}
+table td:nth-child(3) {
+  width: 100px;
+}
